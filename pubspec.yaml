@@ -1,19 +1,22 @@
-name: flutter_qr_code_scanner
-description: "A new Flutter project."
-publish_to: 'none'
-version: 0.1.0
-
-environment:
-  sdk: '>=3.3.3 <4.0.0'
+name: qr_scanner_generator
+description: A new Flutter project.
 
 dependencies:
   flutter:
     sdk: flutter
 
+  cupertino_icons: ^0.1.2
+  path_provider: 0.4.1
+  barcode_scan: ^0.0.4
+  qr_flutter: ^1.1.1
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
+
+
